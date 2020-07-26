@@ -1,3 +1,5 @@
+//import Tree.TreeNode;
+
 public class SumRootToLeaf {
 
     public int sumRootToLeaf(TreeNode root) {
@@ -30,11 +32,11 @@ public class SumRootToLeaf {
         An example is the root-to-leaf path 1->2->3 which represents the number 123.
 
         Find the total sum of all root-to-leaf numbers.*/
-//public int sumNumbers(TreeNode root) {
+//public int sumNumbers(Tree.TreeNode root) {
 //    return sumNodes(root, 0);
 //}
 //
-//    private int sumNodes(TreeNode root, int currentSum) {
+//    private int sumNodes(Tree.TreeNode root, int currentSum) {
 //        if (root == null) return 0;
 //        //the only difference from above solution is that it multiply currentsum by 10 instead of 2
 //        currentSum = currentSum * 10 + root.val;

@@ -1,14 +1,15 @@
+
 import java.util.Stack;
 
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * public class Tree.TreeNode {
  *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *     Tree.TreeNode left;
+ *     Tree.TreeNode right;
+ *     Tree.TreeNode() {}
+ *     Tree.TreeNode(int val) { this.val = val; }
+ *     Tree.TreeNode(int val, Tree.TreeNode left, Tree.TreeNode right) {
  *         this.val = val;
  *         this.left = left;
  *         this.right = right;

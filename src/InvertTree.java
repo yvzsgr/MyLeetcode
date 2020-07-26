@@ -1,5 +1,4 @@
-import java.util.Deque;
-import java.util.LinkedList;
+//import Tree.TreeNode;
 
 public class InvertTree {
 
@@ -14,18 +13,18 @@ public class InvertTree {
     }
 
     //iterative solution with Stack
-//    public TreeNode invertTree(TreeNode root) {
+//    public Tree.TreeNode invertTree(Tree.TreeNode root) {
 //
 //        if (root == null) {
 //            return null;
 //        }
 //
-//        final Deque<TreeNode> stack = new LinkedList<>();
+//        final Deque<Tree.TreeNode> stack = new LinkedList<>();
 //        stack.push(root);
 //
 //        while(!stack.isEmpty()) {
-//            final TreeNode node = stack.pop();
-//            final TreeNode left = node.left;
+//            final Tree.TreeNode node = stack.pop();
+//            final Tree.TreeNode left = node.left;
 //            node.left = node.right;
 //            node.right = left;
 //

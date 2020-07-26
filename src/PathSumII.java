@@ -1,3 +1,5 @@
+//import Tree.TreeNode;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -31,13 +33,13 @@ public class PathSumII {
 //Another solution is with ArrayList.The time complexity is less when using linkedlist due to insertion/deletion operation
 
 //    List<List<Integer>> res;
-//    public List<List<Integer>> pathSum(TreeNode root, int sum) {
+//    public List<List<Integer>> pathSum(Tree.TreeNode root, int sum) {
 //        res = new LinkedList();
 //        dfs(root, sum, new LinkedList());
 //        return res;
 //    }
 //
-//    public void dfs(TreeNode root, int sum, LinkedList<Integer> path){
+//    public void dfs(Tree.TreeNode root, int sum, LinkedList<Integer> path){
 //
 //        if(root == null) return;
 //

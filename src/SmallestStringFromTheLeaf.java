@@ -1,3 +1,5 @@
+//import Tree.TreeNode;
+
 public class SmallestStringFromTheLeaf {
     private String answer = "~";
     public String smallestFromLeaf(TreeNode root) {
