@@ -1,3 +1,5 @@
+package String;
+
 public class IsAlienSorted {
     public boolean isAlienSorted(String[] words, String order) {
         int[] index = new int[26];

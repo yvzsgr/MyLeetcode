@@ -1,4 +1,4 @@
-//import Tree.TreeNode;
+package Tree;//import Tree.TreeNode;
 
 public class InvertTree {
 
