@@ -1,0 +1,355 @@
+** https://seanprashad.com/leetcode-patterns/
+** https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU
+
+
+1-Sliding Window Pattern
+
+   The problem input is a linear data structure such as a linked list, array, or string
+   You’re asked to find the longest/shortest substring, subarray, or a desired value
+- Common problems you use the sliding window pattern with:
+Maximum sum subarray of size ‘K’ (easy)
+Longest substring with ‘K’ distinct characters (medium)
+String anagrams (hard)
+
+https://leetcode.com/list/xlep8di5/
+   * Longest Substring Without Repeating Characters +
+   * Substring with Concatenation of All Words
+   * Minimum Window Substring +
+   * Minimum Size Subarray Sum
+   * Sliding Window Maximum
+   * Longest Repeating Character Replacement +
+   * Permutation in String
+   * Count Unique Characters of All Substrings of a Given String
+   * Fruit Into Baskets
+   * Minimum Number of K Consecutive Bit Flips
+
+
+2- Two Pointers or Iterators
+
+   It will feature problems where you deal with sorted arrays (or Linked Lists)
+   and need to find a set of elements that fulfill certain constraints
+   The set of elements in the array is a pair, a triplet, or even a subarray
+Here are some problems that feature the Two Pointer pattern:
+Squaring a sorted array (easy)
+Triplets that sum to zero (medium)
+Comparing strings that contain backspaces (medium)
+
+https://leetcode.com/list/xlem03mm/
+   * Two Sum +
+   * Container with Most Water +
+   * 3Sum +
+   * 3Sum Closest
+   * Trapping Rain Water
+   * Sort Colors +
+   * Minimum Window Substring +
+   * Remove Duplicates from Sorted List
+   * Subarray Product Less Than K
+   * Backspace String Compare
+   * Squares of a sorted array +
+
+3- Fast amd Slow Pointers
+
+   This approach is quite useful when dealing with cyclic linked lists or arrays.
+   How do you identify when to use the Fast and Slow pattern?
+   The problem will deal with a loop in a linked list or array
+   When you need to know the position of a certain element or the overall length of the linked list.
+
+   When should I use it over the Two Pointer method mentioned above?
+   There are some cases where you shouldn’t use the Two Pointer approach such as in a
+   singly linked list where you can’t move in a backwards direction.
+   An example of when to use the Fast and Slow pattern is when you’re trying to determine
+   if a linked list is a palindrome.
+   Problems featuring the fast and slow pointers pattern:
+   Linked List Cycle (easy)
+   Palindrome Linked List (medium)
+   Cycle in a Circular Array (hard)
+
+ https://leetcode.com/list/xlerlepr/
+
+   * Add Two Numbers
+   * Remove Nth Node from End of List +
+   * Remove Duplicates from Sorted List +
+   * Linked List Cycle +
+   * Linked List Cycle II +
+   * Reorder List +
+   * Sort List +
+   * Remove Linked List Elements
+   * Palindrome Linked List +
+   * Middle of the Linked List +
+
+4- Merge Intervals (Greedy Algorithms)
+   The Merge Intervals pattern is an efficient technique to deal with overlapping intervals.
+   How do you identify when to use the Merge Intervals pattern?
+   If you’re asked to produce a list with only mutually exclusive intervals
+   If you hear the term “overlapping intervals”.
+   Merge interval problem patterns:
+   Intervals Intersection (medium)
+   Maximum CPU Load (hard)
+
+ https://leetcode.com/list/xlepvmyj/
+   * Merge Intervals +
+   * Insert Interval +
+   * Non-overlapping Intervals +
+   * Minimum Number of Arrows to Burst Balloons +
+   * Task Scheduler +
+   * Interval List Intersections
+
+5- Cyclic Sort
+   This pattern describes an interesting approach to deal with problems
+   involving arrays containing numbers in a given range.
+
+   How do I identify this pattern?
+   They will be problems involving a sorted array with numbers in a given range
+   If the problem asks you to find the missing/duplicate/smallest number in an sorted/rotated array
+   Problems featuring cyclic sort pattern:
+   Find the Missing Number (easy)
+   Find the Smallest Missing Positive Number (medium)
+
+6- In-place reversal of linked list
+
+   How do I identify when to use this pattern:
+   If you’re asked to reverse a linked list without using extra memory
+   Problems featuring in-place reversal of linked list pattern:
+   Reverse a Sub-list (medium)
+   Reverse every K-element Sub-list (medium)
+
+ https://leetcode.com/list/xler4hke/
+   * Swap Nodes in Pair +
+   * Reverse Nodes in k-Group +
+   * Rotate List +
+   * Reverse Linked List II +
+   * Reverse Linked List +
+   * Odd Even Linked List +
+
+7-  Tree BFS
+   This pattern is based on the Breadth First Search (BFS) technique to traverse a
+   tree and uses a queue to keep track of all the nodes of a level before jumping onto the next level
+   How to identify the Tree BFS pattern:
+   If you’re asked to traverse a tree in a level-by-level fashion (or level order traversal)
+   Problems featuring Tree BFS pattern:
+   Binary Tree Level Order Traversal (easy)
+   Zigzag Traversal (medium)
+
+https://leetcode.com/list/xlepfebm/
+   * Binary Tree Level Order Traversal +
+   * Binary Tree ZigZag Level Order Traversal
+   * Binary Tree Level Order Traversal II +
+   * Minimum Depth of Binary Tree +
+   * Populating Next Right Pointers in Each Node
+   * Populating Next Right Pointers in Each Node II
+   * Binary Tree Right Side View +
+   * Number of Islands +
+   * Average of Levels in Binary Tree
+   * All Nodes Distance K in Binary Tree
+
+8- Tree DFS
+   You can use recursion (or a stack for the iterative approach) to keep track of all
+   the previous (parent) nodes while traversing.
+   How to identify the Tree DFS pattern:
+   If you’re asked to traverse a tree with in-order, preorder, or postorder DFS
+   If the problem requires searching for something where the node is closer to a leaf
+   Problems featuring Tree DFS pattern:
+   Sum of Path Numbers (medium)
+   All Paths for a Sum (medium)
+
+https://leetcode.com/list/xlemouqi/
+
+  * Validate Binary Search Tree +
+  * Same Tree +
+  * Maximum Depth of Binary Tree +
+  * Construct Binary Tree from Preorder and Inorder Traversal
+  * Path Sum +
+  * Path Sum II
+  * Binary Tree Maximum Path +
+  * Implement Trie (Prefix Tree)
+  * Word Search II
+  * Invert Binary Tree +
+  * Kth Smallest Element in a BST +
+  * Lowest Common Ancestor of a BST +
+  * Lowest Common Ancestor of Binary Tree +
+  * Serialize and Deserialize Binary Tree +
+  * Path Sum III
+  * Diameter of Binary Tree +
+  * Subtree of another tree +
+  * Merge Two Binary Tree +
+  * Maximum Binary Tree
+  * Maximum Width of Binary Tree
+
+9- Two Heaps
+  Ways to identify the Two Heaps pattern:
+  Useful in situations like Priority Queue, Scheduling
+  If the problem states that you need to find the smallest/largest/median elements of a set
+  Sometimes, useful in problems featuring a binary tree data structure
+  Problems featuring
+  Find the Median of a Number Stream (medium)
+
+  https://leetcode.com/list/xlemvyvd/
+  * Find Median From Data Stream +
+  * Sliding Window Median
+  * IPO
+
+10- Subsets
+   How to identify the Subsets pattern:
+   Problems where you need to find the combinations or permutations of a given set
+   Problems featuring Subsets pattern:
+   Subsets With Duplicates (easy)
+   String Permutations by changing case (medium)
+
+11- Modified Binary Search
+  Whenever you are given a sorted array, linked list, or matrix, and are asked to find a
+  certain element, the best algorithm you can use is the Binary Search.
+
+  Problems featuring the Modified Binary Search pattern:
+  Order-agnostic Binary Search (easy)Search in a Sorted Infinite Array (medium)
+
+  https://leetcode.com/list/xleplgq3/
+
+  * Search in Rotated Sorted Array +
+  * Search a 2D Matrix +
+  * Search in Rotated Sorted Array II +
+  * Find Minimum in Rotated Sorted Array +
+  * Find Peak Element +
+  * Count of Range Sum
+  * Find Smallest Letter Greater Than Target
+  * Binary Search +
+  * Peak Index in a Mountain Array +
+
+12- Top K elements
+   Any problem that asks us to find the top/smallest/frequent ‘K’ elements among a given set falls
+   under this pattern.
+   The best data structure to keep track of ‘K’ elements is Heap.
+   How to identify the Top ‘K’ Elements pattern:
+   If you’re asked to find the top/smallest/frequent ‘K’ elements of a given set
+   If you’re asked to sort an array to find an exact element
+   Problems featuring Top ‘K’ Elements pattern:
+   Top ‘K’ Numbers (easy)
+   Top ‘K’ Frequent Numbers (medium)
+
+   https://leetcode.com/list/xlepz4mv/
+
+   *  Kth Largest Element in an Array +
+   *  Kth Smallest Element in a BST +
+   *  Top K Frequent Elements +
+   *  Sort Characters By Frequency
+   *  Course Schedule III
+   *  Find K Closest Elements
+   *  Reorganize String
+   *  Maximum Frequency Stack
+   *  K Closest Points to Origin +
+
+13- K-way Merge
+  K-way Merge helps you solve problems that involve a set of sorted arrays.
+  The pattern looks like this:
+  Insert the first element of each array in a Min Heap.
+  After this, take out the smallest (top) element from the heap and add it to the merged list.
+  After removing the smallest element from the heap, insert the next element of the same list into the heap.
+  Repeat steps 2 and 3 to populate the merged list in sorted order.
+  How to identify the K-way Merge pattern:
+  The problem will feature sorted arrays, lists, or a matrix
+  If the problem asks you to merge sorted lists, find the smallest element in a sorted list.
+  Problems featuring the K-way Merge pattern:
+  Merge K Sorted Lists (medium)
+  K Pairs with Largest Sums (Hard)
+
+https://leetcode.com/list/xlepm8xi/
+
+  * Merge Two Sorted Lists +
+  * Merge k Sorted Lists +
+  * Find K Pairs with Smallest Sums
+  * Kth Smallest Element in a Sorted Matrix
+  * Smallest Range Covering Elements from K Lists
+
+14- Topological Order
+Topological Sort is used to find a linear ordering of elements that have dependencies on each other.
+  How to identify the Topological Sort pattern:
+  The problem will deal with graphs that have no directed cycles
+  If you’re asked to update all objects in a sorted order
+  If you have a class of objects that follow a particular order
+  Problems featuring the Topological Sort pattern:
+  Task scheduling (medium) +
+  Minimum height of a tree (hard)
+
+https://leetcode.com/list/xlepbnhh/
+  1. Course Schedule +
+  2. Course Schedule II
+  3. Minimum Height Trees
+
+15- Backtracking
+
+https://leetcode.com/list/xlere2g3/
+
+1. Letter Combinations of a Phone Number +
+2. Generate Parentheses +
+3. Sudoku Solver
+4. Combination Sum +
+5. Combination Sum II +
+6. Permutations +
+7. Permutations II +
+8. N-Queens
+9. Combinations
+10. Subsets +
+11. Subsets II +
+12. Palindrome Partitioning +
+13. Combination Sum III +
+14. Target Sum +
+15. Letter Case Permutation
+
+https://leetcode.com/problems/subsets/discuss/27281/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
+
+How should we solve backtracking problem
+Pick a starting point.
+while(Problem is not solved)
+    For each path from the starting point.
+        check if selected path is safe, if yes select it
+        and make recursive call to rest of the problem
+        before which undo the current move.
+    End For
+If none of the move works out, return false, NO SOLUTON.
+
+
+16- Dynamic Programming
+
+https://leetcode.com/list/xlern30i/
+
+1. Longest Palindromic Substring +
+2. Maximum Subarray
+3. Jump Game +
+4. Unique Paths +
+5. Climbing Stairs +
+6. Decode Ways +
+7. Best Time to Buy and Sell Stock +
+8. Word Break +
+9. Maximum Product Subarray +
+10. House Robber +
+11. House Robber II +
+12. Longest Increasing Subsequence +
+13. Range Sum Query - Immutable +
+14. Best Time to Buy and Sell Stock with Cooldown
+15. Coin Change +
+16. Counting Bits +
+17. Combination Sum IV +
+18. Partition Equal Subset Sum +
+19. Palindromic Substrings +
+20. Number of Longest Increasing Subsequence +
+21. Partition to K Equal Sum Subsets +
+22. Equal Subset Sum Partition
+23. Subset Sum
+24. Minimum Subset Sum Difference
+25. Count of Subset Sum
+26. Target Sum //This is also backtracking problem
+27. Unbounted Knapsack
+28. Rod cutting
+29. Minimum Coin Change
+30. Maximum Ribbon Cut
+31. Staircase +
+32. Number Factors
+33.
+
+17- Graph Traversal
+
+https://leetcode.com/list/xler60c5/
+
+1. Clone Graph +
+2. Number of Islands +
+3. Course Schedule +
+4. Pacific Atlantic Water Flow +
