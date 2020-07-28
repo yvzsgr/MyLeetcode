@@ -1,3 +1,5 @@
+package Easy;
+
 public class RomanToString {
 
     public static int romanToInt(String s) {

@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class ReverseLinkedListII {
 
     public ListNode reverseBetween(ListNode head, int m, int n) {
@@ -6,7 +8,7 @@ public class ReverseLinkedListII {
         //first part
         ListNode cur1 = dummy;
         ListNode pre1 = null;
-        for(int i=0;i<m;i++){
+        for (int i = 0; i < m; i++) {
             pre1 = cur1;
             cur1 = cur1.next;
         }
@@ -15,7 +17,7 @@ public class ReverseLinkedListII {
         ListNode cur2 = cur1;
         ListNode pre2 = pre1;
         ListNode q2;
-        for(int i=m;i<=n;i++){
+        for (int i = m; i <= n; i++) {
             q2 = cur2.next;
             cur2.next = pre2;
             pre2 = cur2;
@@ -29,6 +31,13 @@ public class ReverseLinkedListII {
         return dummy.next;
     }
 
+    class ListNode {
+        int val;
+        ListNode next;
+        public ListNode(int val){
+            this.val = val;
+        }
 
+    }
 
 }

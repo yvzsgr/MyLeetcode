@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class ReverseLinkedList {
 
     public ListNode reverseList(ListNode head) {

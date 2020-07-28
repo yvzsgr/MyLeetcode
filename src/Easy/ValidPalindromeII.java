@@ -1,3 +1,5 @@
+package Easy;//Given a non-empty string s, you may delete at most one character. Judge whether you can make it a palindrome.
+
 public class ValidPalindromeII {
 
     public boolean validPalindrome(String s) {
@@ -27,8 +29,4 @@ public class ValidPalindromeII {
 
         return true;
     }
-
-
-
-
 }

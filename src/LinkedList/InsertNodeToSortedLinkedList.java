@@ -1,4 +1,4 @@
-
+package LinkedList;
 // Java Program to insert in a sorted list
 
 public class InsertNodeToSortedLinkedList {

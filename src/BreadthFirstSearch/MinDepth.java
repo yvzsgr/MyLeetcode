@@ -1,9 +1,12 @@
-//import Tree.TreeNode;
+package BreadthFirstSearch;//import Tree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class MinDepth {
+
+    //this can also be solved with depth first search but in that case
+    //you might go too deep though you do not need
 
     public int minDepth(TreeNode root) {
         if(root == null) return 0;

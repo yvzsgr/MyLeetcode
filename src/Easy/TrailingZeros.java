@@ -1,3 +1,5 @@
+package Easy;
+
 public class TrailingZeros {
 
     public int trailingZeroes(int n) {
