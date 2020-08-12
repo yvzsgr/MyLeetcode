@@ -38,11 +38,11 @@ public class IsSymmetricTree {
 
 
 // Definition for a binary tree node.
-  class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-}
+//  class TreeNode {
+//      int val;
+//      TreeNode left;
+//      TreeNode right;
+//}
 //      Tree.TreeNode() {}
 //      Tree.TreeNode(int val) { this.val = val; }
 //      Tree.TreeNode(int val, Tree.TreeNode left, Tree.TreeNode right) {
