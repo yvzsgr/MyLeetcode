@@ -1,7 +1,7 @@
 package Array;
 
 import java.util.HashMap;
-
+//this is a sliding window solution
 public class SubarraySumEqualsK {
 
     public int subarraySum(int[] nums, int k) {

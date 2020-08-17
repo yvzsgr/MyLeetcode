@@ -1,11 +1,12 @@
 import DynamicProgramming.CoinsChange;
+import SlidingWindow.LongestSubstringWithoutRepeatingCharacters;
 
 //234
 //4567
 
 public class Main {
     public static void main (String [] args) {
-         CoinsChange change = new CoinsChange();
-         change.coinChange(new int []{1,3,5,15}, 21);
+        LongestSubstringWithoutRepeatingCharacters l1 = new LongestSubstringWithoutRepeatingCharacters();
+        l1.lengthOfLongestSubstring("abcabcbb");
     }
 }

@@ -193,7 +193,7 @@ https://leetcode.com/list/xlemouqi/
    Problems where you need to find the combinations or permutations of a given set
    Problems featuring Subsets pattern:
    Subsets With Duplicates (easy)
-   String Permutations by changing case (medium)
+   String BackTracking.Permutations by changing case (medium)
 
 11- Modified Binary Search
   Whenever you are given a sorted array, linked list, or matrix, and are asked to find a
@@ -255,8 +255,8 @@ https://leetcode.com/list/xlepm8xi/
 
   * Merge Two Sorted Lists +
   * Merge k Sorted Lists +
-  * Find K Pairs with Smallest Sums
-  * Kth Smallest Element in a Sorted Matrix
+  * Find K Pairs with Smallest Sums +
+  * Kth Smallest Element in a Sorted Matrix +
   * Smallest Range Covering Elements from K Lists
 
 14- Topological Order
@@ -278,15 +278,15 @@ https://leetcode.com/list/xlepbnhh/
 
 https://leetcode.com/list/xlere2g3/
 
-1. Letter Combinations of a Phone Number +
+1. Letter BackTracking.Combinations of a Phone Number +
 2. Generate Parentheses +
 3. Sudoku Solver
 4. Combination Sum +
 5. Combination Sum II +
-6. Permutations +
-7. Permutations II +
+6. BackTracking.Permutations +
+7. BackTracking.Permutations II +
 8. N-Queens
-9. Combinations
+9. BackTracking.Combinations
 10. Subsets +
 11. Subsets II +
 12. Palindrome Partitioning +
@@ -294,7 +294,7 @@ https://leetcode.com/list/xlere2g3/
 14. Target Sum +
 15. Letter Case Permutation
 
-https://leetcode.com/problems/subsets/discuss/27281/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
+https://leetcode.com/problems/subsets/discuss/27281/A-general-approach-to-backtracking-questions-in-Java-(Subsets-BackTracking.Permutations-Combination-Sum-Palindrome-Partitioning)
 
 How should we solve backtracking problem
 Pick a starting point.
